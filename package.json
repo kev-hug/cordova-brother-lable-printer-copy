@@ -1,0 +1,67 @@
+{
+  "_from": "git+https://github.com/gordol/cordova-brother-label-printer.git#dev",
+  "_id": "cordova-brother-label-printer@0.0.4-dev",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-brother-label-printer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/gordol/cordova-brother-label-printer.git#dev",
+    "rawSpec": "git+https://github.com/gordol/cordova-brother-label-printer.git#dev",
+    "saveSpec": "git+https://github.com/gordol/cordova-brother-label-printer.git#dev",
+    "fetchSpec": "https://github.com/gordol/cordova-brother-label-printer.git",
+    "gitCommittish": "dev"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/gordol/cordova-brother-label-printer.git#c978cf6bb97f7176e64a96f6e877101758818401",
+  "_spec": "git+https://github.com/gordol/cordova-brother-label-printer.git#dev",
+  "_where": "C:\\dev_apps\\Ionic\\printerTest",
+  "author": {
+    "name": "Thomas Gordon Lowrey IV"
+  },
+  "bugs": {
+    "url": "https://github.com/gordol/cordova-brother-label-printer/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-brother-label-printer",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova hooks for Brother Print SDK",
+  "engines": {
+    "android-sdk": ">=26",
+    "apple-ios": ">=10.0.0",
+    "cordova": ">=3.6.0",
+    "cordova-android": ">=6.0.0"
+  },
+  "homepage": "https://github.com/gordol/cordova-brother-label-printer#readme",
+  "keywords": [
+    "brother",
+    "print",
+    "sdk",
+    "label",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gordol/cordova-brother-label-printer/blob/master/LICENSE"
+    }
+  ],
+  "name": "cordova-brother-label-printer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordol/cordova-brother-label-printer.git"
+  },
+  "version": "0.0.4-dev"
+}
