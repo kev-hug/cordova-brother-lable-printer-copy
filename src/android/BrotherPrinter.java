@@ -342,9 +342,15 @@ public class BrotherPrinter extends CordovaPlugin {
             editor.putString("address", printer.ipAddress);
             editor.putString("macAddress", printer.macAddress);
             //editor.putString("paperSize", LabelInfo.QL700.W62.toString());
-			editor.putString("paperSize", "W62RB");
-			//editor.putString("paperSize", toLabelIndexName("W62RB"));
-			editor.commit();
+		editor.putString("paperSize", "W62RB");
+		//editor.putString("halftone", "THRESHOLD");
+		//editor.putString("thresholdingValue", "245");
+		//editor.putString("halftone", "PATTERNDITHER");
+		editor.putString("halftone", "ERRORDIFFUSION");
+		
+		
+	  //editor.putString("paperSize", toLabelIndexName("W62RB"));
+	   editor.commit();
 
             PluginResult result = new PluginResult(PluginResult.Status.OK, args);
             callbackctx.sendPluginResult(result);
